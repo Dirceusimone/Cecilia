@@ -5,3 +5,7 @@ function tocaSomGrilo() {
 
 document.querySelector(".tecla_grilo").onclick = tocaSomGrilo;
 
+const listaDeTeclas = document.querySelectorAll(".tecla");
+
+listaDeTeclas[4].onclick = tocaSomGrilo;
+
